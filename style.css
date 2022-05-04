@@ -1,0 +1,131 @@
+body {
+  /* background-color: rgba(186, 189, 141, 0.1); */
+  background-image: url('images/background3.jpg');
+  background-size: cover;                    
+  background-repeat: no-repeat;
+  background-position: center center;   
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: 003459;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h3, h4{
+  color: 007EA7;
+  font-family: 'Space Mono', monospace;
+  margin: 10px 0;
+}
+
+p {
+  color: 00171F;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #003459;
+}
+
+/* a:hover {
+  color: #003459;
+} */
+
+.container {
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(250, 252, 215, 0.809);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 5px 0;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.profile-titles {
+  height: 275px;
+}
+
+.icon-email {
+  transition: 0.5s ease all;
+}
+
+.icon-email:hover {
+  transform: translate(20px, -20px);
+}
+
+.icon-linkedin {
+  transition: 0.5s ease all;
+}
+
+.icon-linkedin:hover {
+  transform: rotate(180deg);
+}
+
+.icon-instagram::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  color: #003459;
+  content: "\f292";
+  transform: rotate(0deg);
+  transition: 0.5s content;
+}
+
+.icon-instagram:hover::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  color: #003459;
+  content: "\f067";
+  transform: rotate(10deg);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 32px;
+  padding: 20px 20px;
+  color: 003459;
+}
+
+img {
+  /* transform: translate(-159px, -114px); */
+  transform: translate(-90%, -150px);;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+#too-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: white;
+  background-color:  #ca4353b4;
+}
+
+#too-button:hover {
+  background-color: #CA4353;
+}
+
+#profile-roles-left {
+  text-align: left;
+  margin-left: 400px;
+  /* transform: translate(87px, 73px); */
+  transform: translate(25%, 25%);
+  line-height: 3;
+}
